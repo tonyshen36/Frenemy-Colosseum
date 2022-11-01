@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 170f9eab-3ef4-430d-9a9d-82dc248e4170
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: 
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: usw
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - RPC_DoSomething
+  - RPC_SendKey
+  - RPC_ReceiveKey
+  - DealDamage
+  - TakeDamage
+  - SwitchToAxe
+  - SwitchToDualSword
+  - SwitchToSpear
+  - SwitchToSword
+  - RPC_SetSkinIndex
+  - ApplySettings
+  - RPC_UpgradePlayerStates
+  - RPC_UpgradePlayerWeapon
+  - RPC_SetPlayerPosition
+  - RPC_SetFriendlyFire
+  - RPC_ReceiveMobKey
+  - RPC_PlayerTakeDamage
+  - RPC_ResetScene
+  - SwitchToMaceShield
+  - RPC_PlayerTakeStaminaDamage
+  - RPC_PlayerTakeStaminaDamage
+  - RPC_PlayerReduceStamina
+  - RPC_ReplacePlayerStates
+  - RPC_ClearUpgrades
+  - RPC_RevivePlayer
+  - RPC_SetHealth
+  - RPC_OnEnterPVPArea
+  - RPC_OnExitPVPArea
+  - RPC_OnEnterPVEArea
+  - RPC_PlayActivateAnim
+  DisableAutoOpenWizard: 1
+  ShowSettings: 0
+  DevRegionSetOnce: 1
